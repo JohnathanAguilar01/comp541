@@ -19,7 +19,7 @@ static int pidinfo_show(struct seq_file *m, void *v)
     int i;
 
     if (num_pids == 0) {
-        seq_puts(m, "No PIDs stored. echo a PID to /proc/" PROC_NAME " first.\n");
+        seq_puts(m, "No PIDs written yet.\n");
         return 0;
     }
 
